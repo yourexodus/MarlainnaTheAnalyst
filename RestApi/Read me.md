@@ -47,6 +47,9 @@ This project demonstrates best practices in API design, modular architecture, an
 
 ## 🧠 User Flow (Authentication & Authorization)
 
+<table>
+<thead>
+<tr>
 <th>Flowchart Diagram</th>
 <th>Linked Code Breakdown</th>
 </tr>
@@ -54,7 +57,7 @@ This project demonstrates best practices in API design, modular architecture, an
 <tbody>
 <tr>
 <td rowspan="7">
-<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/UserFlowchart.png" alt="User Authentication Flowchart" width="400"/>
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/UserFlowchart.png" alt="User Authentication Flowchart" width="100%"/>
 </td>
 <td>
 This outlines the key steps in the user authentication and authorization process, with links to the relevant code in your <code>mfrancis_restAPI</code> repository.
@@ -97,6 +100,7 @@ This outlines the key steps in the user authentication and authorization process
 </tr>
 </tbody>
 </table>
+
 > This flowchart illustrates the **User Authentication Process**, including registration, login, token creation, and JWT validation.
 
 ---

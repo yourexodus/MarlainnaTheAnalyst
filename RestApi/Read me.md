@@ -1,19 +1,19 @@
 # 🏪 Flask Store API
 
-A fully functional **RESTful API** built with **Flask-Smorest** to manage store inventory, including items, stores, tags, and users.  
+A fully functional **RESTful API** built with **Flask-Smorest** to manage store inventory, including items, stores, tags, and users.
 This project demonstrates best practices in API design, modular architecture, and Docker-based deployment — built while balancing full-time work and motherhood 💪🏽.
 
 ---
 
 ## 🚀 Features
 
-- 🔹 CRUD operations for **Users**, **Stores**, **Items**, and **Tags**  
-- 🔹 RESTful routing with parameterized endpoints  
-- 🔹 Input validation and robust error handling (404, 400)  
-- 🔹 Modular architecture using **Blueprints** and **MethodViews**  
-- 🔹 Auto-generated API documentation with **Swagger UI**  
-- 🔹 JWT-based authentication for secure access  
-- 🔹 Dockerized for scalable deployment  
+- 🔹 CRUD operations for **Users**, **Stores**, **Items**, and **Tags**
+- 🔹 RESTful routing with parameterized endpoints
+- 🔹 Input validation and robust error handling (404, 400)
+- 🔹 Modular architecture using **Blueprints** and **MethodViews**
+- 🔹 Auto-generated API documentation with **Swagger UI**
+- 🔹 JWT-based authentication for secure access
+- 🔹 Dockerized for scalable deployment
 
 ---
 
@@ -54,14 +54,14 @@ mfrancis_restAPI/
 ├── Dockerfile
 ├── requirements.txt
 ├── models/
-│   ├── store.py
-│   ├── item.py
-│   └── user.py
+│   ├── store.py
+│   ├── item.py
+│   └── user.py
 └── resources/
-    ├── store.py
-    ├── item.py
-    ├── user.py
-    └── tag.py
+    ├── store.py
+    ├── item.py
+    ├── user.py
+    └── tag.py
 </pre>
 </td>
 </tr>
@@ -116,17 +116,17 @@ mfrancis_restAPI/
 <table>
 <thead>
 <tr>
-<th>Flowchart Diagram</th>
 <th>Linked Code Breakdown</th>
+<th>Flowchart Diagram</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="6">
-<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/store_chart.png" alt="Simplified Store Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
-</td>
 <td>
 This section outlines the essential CRUD operations for the Store resource, with links to the relevant code in <code>resources/store.py</code>.
+</td>
+<td rowspan="6">
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/store_chart.png" alt="Simplified Store Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
 </td>
 </tr>
 <tr>
@@ -163,23 +163,23 @@ This section outlines the essential CRUD operations for the Store resource, with
 </table>
 > This section summarizes the complete Store Management Process, detailing how stores are created, viewed, modified, and removed.
 
-
+---
 ## 🏷️ Tag Management Flow (CRUD Operations)
 
 <table>
 <thead>
 <tr>
-<th>Flowchart Diagram</th>
 <th>Linked Code Breakdown</th>
+<th>Flowchart Diagram</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="6">
-<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/tag_chart.png" alt="Simplified Tag Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
-</td>
 <td>
 This section outlines the essential CRUD operations for the Tag resource, with links to the relevant code in <code>resources/tag.py</code>.
+</td>
+<td rowspan="6">
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/tag_chart.png" alt="Simplified Tag Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
 </td>
 </tr>
 <tr>
@@ -217,22 +217,23 @@ This section outlines the essential CRUD operations for the Tag resource, with l
 
 > This visualization details the complete Tag Management Process, including tag creation, retrieval, and deletion.
 
+---
 ## 📦 Item Management Flow (CRUD Operations)
 
 <table>
 <thead>
 <tr>
-<th>Flowchart Diagram</th>
 <th>Linked Code Breakdown</th>
+<th>Flowchart Diagram</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="6">
-<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/item_chart.png" alt="Simplified Item Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
-</td>
 <td>
 This section outlines the essential CRUD operations for the Item resource, with links to the relevant code in <code>resources/item.py</code>.
+</td>
+<td rowspan="6">
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/item_chart.png" alt="Simplified Item Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
 </td>
 </tr>
 <tr>
@@ -269,24 +270,24 @@ This section outlines the essential CRUD operations for the Item resource, with 
 </table>
 
 > This visualization details the complete Item Management Process, including item creation, retrieval, and deletion.
->
-> 
+
+---
 ## 🧠 User Flow (Authentication & Authorization)
 
 <table>
 <thead>
 <tr>
-<th>Flowchart Diagram</th>
 <th>Linked Code Breakdown</th>
+<th>Flowchart Diagram</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="7">
-<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/UserFlowchart.png" alt="User Authentication Flowchart" width="100%"/>
-</td>
 <td>
 This outlines the key steps in the user authentication and authorization process, with links to the relevant code in your <code>mfrancis_restAPI</code> repository.
+</td>
+<td rowspan="7">
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/UserFlowchart.png" alt="User Authentication Flowchart" width="100%"/>
 </td>
 </tr>
 <tr>
@@ -329,53 +330,32 @@ This outlines the key steps in the user authentication and authorization process
 
 > This flowchart illustrates the **User Authentication Process**, including registration, login, token creation, and JWT validation.
 
-
+---
 ## ⚙️ Setup Instructions
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourexodus/mfrancis_restAPI.git
-   cd mfrancis_restAPI
-
-   
-## ⚙️ Setup & Run Instructions
-
-### 🧩 Create a Virtual Environment
+### 1. Clone the repository
 
 ```bash
+git clone [https://github.com/yourexodus/mfrancis_restAPI.git](https://github.com/yourexodus/mfrancis_restAPI.git)
+cd mfrancis_restAPI
+2. Create a Virtual Environment
+Bash
+
 python -m venv .venv
-source .venv/Scripts/activate   # (Windows)
- 
-📦 Install Dependencies
- 
- 
+source .venv/Scripts/activate    # (Windows)
+# source .venv/bin/activate     # (macOS/Linux)
+3. Install Dependencies
+Bash
+
 pip install -r requirements.txt
+4. Run the Flask API
+Bash
 
+flask run
+👉 http://127.0.0.1:5000/swagger-ui to view the automatically generated Swagger documentation.
 
-🚀 Run the Flask API
- 
-👉 http://127.0.0.1:5000/swagger-ui
-to view the automatically generated Swagger documentation.
+5. Docker Usage
+Bash
 
-🧱 Docker Usage
- 
 docker build -t flask-store-api .
 docker run -p 5000:5000 flask-store-api
-  
-📌 Next Step — Add the Flowchart
-To make the flowchart visible in your GitHub repository:
-
- 
-docs/user_flowchart.png
-Commit and push it:
-
-bash
-Copy code
-mkdir docs
-mv "A_flowchart_in_the_digital_illustration_depicts_a_.png" docs/user_flowchart.png
-git add docs/user_flowchart.png README.md
-git commit -m "Add user flowchart and update README"
-git push origin main
-
-
-

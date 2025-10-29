@@ -24,7 +24,7 @@ This project demonstrates best practices in API design, modular architecture, an
 | **Language** | Python |
 | **Framework** | Flask, Flask-Smorest |
 | **Auth & Security** | Flask-JWT-Extended |
-| **Testing / Docs** | Postman, Swagger UI |
+| **Testing / Docs** | Insomnia, Swagger UI |
 | **Deployment** | Docker |
 | **Version Control** | Git & GitHub |
 
@@ -47,8 +47,56 @@ This project demonstrates best practices in API design, modular architecture, an
 
 ## 🧠 User Flow (Authentication & Authorization)
 
-![User Flowchart](https://github.com/yourexodus/mfrancis_restAPI/raw/main/docs/user_flowchart.png)
-
+<th>Flowchart Diagram</th>
+<th>Linked Code Breakdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="7">
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/UserFlowchart.png" alt="User Authentication Flowchart" width="400"/>
+</td>
+<td>
+This outlines the key steps in the user authentication and authorization process, with links to the relevant code in your <code>mfrancis_restAPI</code> repository.
+</td>
+</tr>
+<tr>
+<td>
+<strong>1. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/user.py">User Registration</a></strong><br>
+<em>This step handles new user account creation.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>2. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/user.py#L36">Valid Credentials Check</a></strong><br>
+<em>Verifies the provided username and password during login.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>3. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/user.py#L42">Generate JWT (JSON Web Token)</a></strong><br>
+<em>Upon successful credential validation, a JWT is created for the user session.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>4. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/user.py#L35">Login</a></strong><br>
+<em>The process where an existing user authenticates with their credentials.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>5. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/app.py#L41">Valid JWT Check</a></strong><br>
+<em>Ensures the JWT provided with subsequent requests is valid and not expired or blacklisted.</em>
+</td>
+</tr>
+<tr>
+<td>
+(See also: <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/blocklist.py">JWT Blocklist</a>)
+</td>
+</tr>
+</tbody>
+</table>
 > This flowchart illustrates the **User Authentication Process**, including registration, login, token creation, and JWT validation.
 
 ---

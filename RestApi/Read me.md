@@ -59,3 +59,43 @@ This project demonstrates best practices in API design, modular architecture, an
    ```bash
    git clone https://github.com/yourexodus/mfrancis_restAPI.git
    cd mfrancis_restAPI
+
+   
+## ⚙️ Setup & Run Instructions
+
+### 🧩 Create a Virtual Environment
+
+```bash
+python -m venv .venv
+source .venv/Scripts/activate   # (Windows)
+ 
+📦 Install Dependencies
+ 
+ 
+pip install -r requirements.txt
+
+
+🚀 Run the Flask API
+ 
+👉 http://127.0.0.1:5000/swagger-ui
+to view the automatically generated Swagger documentation.
+
+🧱 Docker Usage
+ 
+docker build -t flask-store-api .
+docker run -p 5000:5000 flask-store-api
+  
+📌 Next Step — Add the Flowchart
+To make the flowchart visible in your GitHub repository:
+
+ 
+docs/user_flowchart.png
+Commit and push it:
+
+bash
+Copy code
+mkdir docs
+mv "A_flowchart_in_the_digital_illustration_depicts_a_.png" docs/user_flowchart.png
+git add docs/user_flowchart.png README.md
+git commit -m "Add user flowchart and update README"
+git push origin main

@@ -73,7 +73,6 @@ This section outlines the essential CRUD operations for the Store resource, with
 <strong>2. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/store.py#L38">View All Stores</a></strong><br>
 <em>Retrieves a list of all available stores.</em>
 </td>
-</td>
 </tr>
 <tr>
 <td>
@@ -98,7 +97,113 @@ This section outlines the essential CRUD operations for the Store resource, with
 > This section summarizes the complete Store Management Process, detailing how stores are created, viewed, modified, and removed.
 
 
+## 🏷️ Tag Management Flow (CRUD Operations)
 
+<table>
+<thead>
+<tr>
+<th>Flowchart Diagram</th>
+<th>Linked Code Breakdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="6">
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/tag_chart.png" alt="Simplified Tag Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
+</td>
+<td>
+This section outlines the essential CRUD operations for the Tag resource, with links to the relevant code in <code>resources/tag.py</code>.
+</td>
+</tr>
+<tr>
+<td>
+<strong>1. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/tag.py#L18">Create Tag</a></strong><br>
+<em>Creates a new tag entry and links it to an item or store.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>2. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/tag.py#L38">View All Tags</a></strong><br>
+<em>Retrieves a list of all available tags.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>3. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/tag.py#L32">View Tag by ID</a></strong><br>
+<em>Retrieves details for a specific tag.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>4. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/tag.py#L25">Update Tag</a></strong><br>
+<em>Modifies the name or details of an existing tag.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>5. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/tag.py#L42">Delete Tag</a></strong><br>
+<em>Permanently removes a tag from the database.</em>
+</td>
+</tr>
+</tbody>
+</table>
+
+> This visualization details the complete Tag Management Process, including tag creation, retrieval, and deletion.
+
+## 📦 Item Management Flow (CRUD Operations)
+
+<table>
+<thead>
+<tr>
+<th>Flowchart Diagram</th>
+<th>Linked Code Breakdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="6">
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/item_chart.png" alt="Simplified Item Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
+</td>
+<td>
+This section outlines the essential CRUD operations for the Item resource, with links to the relevant code in <code>resources/item.py</code>.
+</td>
+</tr>
+<tr>
+<td>
+<strong>1. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/item.py#L18">Create Item</a></strong><br>
+<em>Adds a new item, typically linked to a specific store.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>2. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/item.py#L38">View All Items</a></strong><br>
+<em>Retrieves a comprehensive list of all items across all stores.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>3. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/item.py#L32">View Item by ID</a></strong><br>
+<em>Retrieves details for a specific item.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>4. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/item.py#L25">Update Item</a></strong><br>
+<em>Modifies the details (e.g., price, name) of an existing item.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>5. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/item.py#L42">Delete Item</a></strong><br>
+<em>Permanently removes an item from the database.</em>
+</td>
+</tr>
+</tbody>
+</table>
+
+> This visualization details the complete Item Management Process, including item creation, retrieval, and deletion.
+>
+> 
 ## 🧠 User Flow (Authentication & Authorization)
 
 <table>

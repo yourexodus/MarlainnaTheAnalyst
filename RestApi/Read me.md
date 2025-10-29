@@ -29,19 +29,86 @@ This project demonstrates best practices in API design, modular architecture, an
 | **Version Control** | Git & GitHub |
 
 ---
-
 ## 🧩 Project Structure
 
-| Folder | Description |
-|---------|-------------|
-| [`/models`](https://github.com/yourexodus/mfrancis_restAPI/tree/main/models) | SQLAlchemy database models |
-| [`/resources`](https://github.com/yourexodus/mfrancis_restAPI/tree/main/resources) | API Blueprints (User, Store, Item, Tag) |
-| [`app.py`](https://github.com/yourexodus/mfrancis_restAPI/blob/main/app.py) | Flask application entry point |
-| [`db.py`](https://github.com/yourexodus/mfrancis_restAPI/blob/main/db.py) | Database initialization |
-| [`blocklist.py`](https://github.com/yourexodus/mfrancis_restAPI/blob/main/blocklist.py) | JWT token blocklist |
-| [`schemas.py`](https://github.com/yourexodus/mfrancis_restAPI/blob/main/schemas.py) | Marshmallow schemas for data validation |
-| [`requirements.txt`](https://github.com/yourexodus/mfrancis_restAPI/blob/main/requirements.txt) | Dependencies list |
-| [`Dockerfile`](https://github.com/yourexodus/mfrancis_restAPI/blob/main/Dockerfile) | Docker container configuration |
+<table>
+<thead>
+<tr>
+<th>Linked Code Breakdown</th>
+<th>File Structure Layout</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+This outlines the organization of the API, with links to the core components.
+</td>
+<td rowspan="8">
+<pre>
+mfrancis_restAPI/
+├── .venv/
+├── blocklist.py
+├── app.py
+├── db.py
+├── schemas.py
+├── Dockerfile
+├── requirements.txt
+├── models/
+│   ├── store.py
+│   ├── item.py
+│   └── user.py
+└── resources/
+    ├── store.py
+    ├── item.py
+    ├── user.py
+    └── tag.py
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://github.com/yourexodus/mfrancis_restAPI/tree/main/models"><code>/models</code></a><br>
+<em>SQLAlchemy database models (Store, Item, User).</em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://github.com/yourexodus/mfrancis_restAPI/tree/main/resources"><code>/resources</code></a><br>
+<em>API Blueprints/MethodViews (User, Store, Item, Tag).</em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/app.py"><code>app.py</code></a><br>
+<em>Flask application entry point.</em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/db.py"><code>db.py</code></a><br>
+<em>Database initialization (SQLAlchemy instance).</em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/blocklist.py"><code>blocklist.py</code></a><br>
+<em>JWT token blocklist for logout/revocation.</em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/schemas.py"><code>schemas.py</code></a><br>
+<em>Marshmallow schemas for request/response validation.</em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/requirements.txt"><code>requirements.txt</code></a><br>
+<em>Project dependencies list.</em>
+</td>
+</tr>
+</tbody>
+</table>
 
 ---
 ## 🏬 Store Management Flow (CRUD Operations)

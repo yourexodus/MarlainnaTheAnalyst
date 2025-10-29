@@ -44,6 +44,60 @@ This project demonstrates best practices in API design, modular architecture, an
 | [`Dockerfile`](https://github.com/yourexodus/mfrancis_restAPI/blob/main/Dockerfile) | Docker container configuration |
 
 ---
+## 🏬 Store Management Flow (CRUD Operations)
+
+<table>
+<thead>
+<tr>
+<th>Flowchart Diagram</th>
+<th>Linked Code Breakdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="6">
+<img src="https://github.com/yourexodus/MarlainnaTheAnalyst/blob/main/RestApi/images/store_chart.png" alt="Simplified Store Flowchart: Create, View All, View by ID, Update, Delete" width="100%"/>
+</td>
+<td>
+This section outlines the essential CRUD operations for the Store resource, with links to the relevant code in <code>resources/store.py</code>.
+</td>
+</tr>
+<tr>
+<td>
+<strong>1. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/store.py#L18">Create Store</a></strong><br>
+<em>Creates a new store entry in the database.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>2. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/store.py#L38">View All Stores</a></strong><br>
+<em>Retrieves a list of all available stores.</em>
+</td>
+</td>
+</tr>
+<tr>
+<td>
+<strong>3. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/store.py#L32">View Store by ID</a></strong><br>
+<em>Retrieves details for a specific store.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>4. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/store.py#L25">Update Store</a></strong><br>
+<em>Modifies the details of an existing store.</em>
+</td>
+</tr>
+<tr>
+<td>
+<strong>5. <a href="https://github.com/yourexodus/mfrancis_restAPI/blob/main/resources/store.py#L42">Delete Store</a></strong><br>
+<em>Permanently removes a store from the database.</em>
+</td>
+</tr>
+</tbody>
+</table>
+> This section summarizes the complete Store Management Process, detailing how stores are created, viewed, modified, and removed.
+
+
 
 ## 🧠 User Flow (Authentication & Authorization)
 
@@ -103,7 +157,6 @@ This outlines the key steps in the user authentication and authorization process
 
 > This flowchart illustrates the **User Authentication Process**, including registration, login, token creation, and JWT validation.
 
----
 
 ## ⚙️ Setup Instructions
 

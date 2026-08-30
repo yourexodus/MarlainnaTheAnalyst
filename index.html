@@ -1,7 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-  Massively by HTML5 UP
--->
 <html>
 <head>
   <title>Marlainna | Data & AI Portfolio</title>
@@ -34,13 +31,21 @@
       color: #fbbf24;
       font-weight: bold;
     }
+
+    /* Responsive container for embedded Tableau Dashboard */
+    .tableau-embed-container {
+      width: 100%;
+      margin: 1em 0;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #fbbf24;
+    }
   </style>
 </head>
 
 <body class="is-preload">
 <div id="wrapper" class="fade-in">
 
-  <!-- INTRO -->
   <div id="intro">
     <h1>Marlainna<br/>Data Analyst</h1>
     <p>
@@ -54,7 +59,6 @@
     </ul>
   </div>
 
-  <!-- SKILLS SUMMARY -->
   <section id="skills" class="skills-summary">
     <header class="major">
       <h2>Skills Summary</h2>
@@ -94,72 +98,71 @@
       }
     </style>
   </section>
-<!-- IBM Z MODERNIZATION & CERTIFICATIONS -->
-<section id="certifications" class="skills-summary" style="text-align:center;">
-  <header class="major">
-    <h2>IBM Z Modernization & Professional Credentials</h2>
-  </header>
 
-  <p style="font-size:1.05em; line-height:2em;">
-    <strong style="color:#fbbf24;">
-      10+ Years Professional Mainframe Programming Experience
-    </strong>
-    <br/>
-    COBOL • IBM DB2 • CICS • JCL
-    <br/>
-    <span style="color:#d1d5db;">
-      Hands-on IBM Z training and modernization work since September 2025
-    </span>
-  </p>
+  <section id="certifications" class="skills-summary" style="text-align:center;">
+    <header class="major">
+      <h2>IBM Z Modernization & Professional Credentials</h2>
+    </header>
 
-  <p style="font-size:1em; line-height:2.2em;">
+    <p style="font-size:1.05em; line-height:2em;">
+      <strong style="color:#fbbf24;">
+        10+ Years Professional Mainframe Programming Experience
+      </strong>
+      <br/>
+      COBOL • IBM DB2 • CICS • JCL
+      <br/>
+      <span style="color:#d1d5db;">
+        Hands-on IBM Z training and modernization work since September 2025
+      </span>
+    </p>
 
-    <a href="https://www.credly.com/badges/430cd33a-b896-4252-a619-e63654031b76"
-       target="_blank"
-       rel="noopener noreferrer"
-       style="color:#fbbf24; font-weight:bold; text-decoration:none;">
-      IBM Z Xplore – Concepts
-    </a>
+    <p style="font-size:1em; line-height:2.2em;">
 
-    &nbsp;★&nbsp;
+      <a href="https://www.credly.com/badges/430cd33a-b896-4252-a619-e63654031b76"
+         target="_blank"
+         rel="noopener noreferrer"
+         style="color:#fbbf24; font-weight:bold; text-decoration:none;">
+        IBM Z Xplore – Concepts
+      </a>
 
-    <a href="https://www.credly.com/badges/c37f20ee-a828-46ae-a6af-2ef276b0290b"
-       target="_blank"
-       rel="noopener noreferrer"
-       style="color:#fbbf24; font-weight:bold; text-decoration:none;">
-      IBM Z Xplore – Advanced
-    </a>
+      &nbsp;★&nbsp;
 
-    &nbsp;★&nbsp;
+      <a href="https://www.credly.com/badges/c37f20ee-a828-46ae-a6af-2ef276b0290b"
+         target="_blank"
+         rel="noopener noreferrer"
+         style="color:#fbbf24; font-weight:bold; text-decoration:none;">
+        IBM Z Xplore – Advanced
+      </a>
 
-    <a href="https://www.credly.com/badges/a0b3db0d-5d55-47e9-9cab-a17745253578"
-       target="_blank"
-       rel="noopener noreferrer"
-       style="color:#fbbf24; font-weight:bold; text-decoration:none;">
-      Modernize Applications With IBM CICS
-    </a>
+      &nbsp;★&nbsp;
 
-    <br/>
+      <a href="https://www.credly.com/badges/a0b3db0d-5d55-47e9-9cab-a17745253578"
+         target="_blank"
+         rel="noopener noreferrer"
+         style="color:#fbbf24; font-weight:bold; text-decoration:none;">
+        Modernize Applications With IBM CICS
+      </a>
 
-    <strong style="color:#fbbf24;">
-      Certified Entry-Level Python Programmer (PCEP)
-    </strong>
+      <br/>
 
-    &nbsp;★&nbsp;
+      <strong style="color:#fbbf24;">
+        Certified Entry-Level Python Programmer (PCEP)
+      </strong>
 
-    <strong style="color:#fbbf24;">
-      Data Analyst I Professional Certificate – JCCC
-    </strong>
+      &nbsp;★&nbsp;
 
-    &nbsp;★&nbsp;
+      <strong style="color:#fbbf24;">
+        Data Analyst I Professional Certificate – JCCC
+      </strong>
 
-    <strong style="color:#fbbf24;">
-      Data Science Certificate – General Assembly + Intuit
-    </strong>
+      &nbsp;★&nbsp;
 
-  </p>
-</section>
-  
+      <strong style="color:#fbbf24;">
+        Data Science Certificate – General Assembly + Intuit
+      </strong>
+
+    </p>
+  </section>
 
   <nav id="nav">
     <ul class="links">
@@ -173,10 +176,8 @@
 
   <div id="main">
 
-    <!-- 2-COLUMN POSTS GRID -->
     <section class="posts">
 
-      <!-- REST API MODERNIZATION -->
       <article>
         <header>
           <h2>
@@ -202,7 +203,6 @@
         </ul>
       </article>
 
-      <!-- YOUR EXODUS FULL-STACK APPLICATION -->
       <article style="background-color: #111827; color: #ffffff; padding: 2em; border-radius: 8px; border: 2px solid #fbbf24;">
         <header>
           <h2 style="color: #fbbf24;">
@@ -232,370 +232,4 @@
 
         <p style="color: #ffffff; line-height: 1.6em;">
           <strong style="color: #fbbf24;">Backend:</strong>
-          Python • <span class="tech-highlight">Flask</span> • Flask-Smorest • <span class="tech-highlight">SQLAlchemy</span> • Marshmallow • <span class="tech-highlight">PostgreSQL</span>
-        </p>
-
-        <p style="color: #ffffff; line-height: 1.6em;">
-          <strong style="color: #fbbf24;">Development & Deployment:</strong>
-          <span class="tech-highlight">REST APIs</span> • <span class="tech-highlight">Docker</span> • <span class="tech-highlight">Git/GitHub</span> • Alembic migrations • Render
-        </p>
-
-        <p style="color: #ffffff; line-height: 1.6em;">
-          <strong style="color: #fbbf24;">Application Features:</strong>
-          User authentication • Bible Study Dashboard • Journal Dashboard •
-          Prayer Dashboard • Categories • User-specific records •
-          Admin functionality • Published content
-        </p>
-
-        <p style="color: #ffffff; line-height: 1.6em;">
-          <strong style="color: #fbbf24;">Technical Focus:</strong>
-          API design, database architecture, relational data modeling,
-          authentication, schema validation, migrations, containerization,
-          debugging, and frontend/backend integration.
-        </p>
-
-        <p style="color: #ffffff; line-height: 1.6em;">
-          <strong style="color: #fbbf24;">Modernization:</strong>
-          Demonstrates the ability to move from traditional enterprise
-          programming concepts into modern API-driven application architecture.
-        </p>
-
-        <ul class="actions special" style="flex-wrap: wrap; gap: 0.5em; margin-top: 1.5em;">
-          <li>
-            <a href="https://your-exodus.com" target="_blank" class="button">
-              View App
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/yourexodus/yourexodus-site" target="_blank" class="button">
-              Frontend
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/yourexodus/yourexodus_api" target="_blank" class="button">
-              Backend
-            </a>
-          </li>
-        </ul>
-      </article>
-
-      <!-- ML / CDC -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://github.com/yourexodus/capstone_CDC/blob/main/README.md">
-              Predictive Modeling for Public Health (ML)
-            </a>
-          </h2>
-        </header>
-
-        <a href="https://github.com/yourexodus/capstone_CDC/blob/main/README.md" class="image fit">
-          <img src="images/datascience.jpg" alt="Predictive Modeling" />
-        </a>
-
-        <p>
-          End-to-end machine learning project using public health data to identify statistically significant
-          risk factors and generate predictive insights.
-        </p>
-
-        <p><strong>AI & Modernization:</strong> Feature engineering and supervised learning transform static datasets into predictive intelligence.</p>
-        <p><strong>VAULTIS:</strong> Validated inputs, reproducible notebooks, documented assumptions, no PII.</p>
-        <p><strong>Leadership Insight:</strong> Enables proactive intervention instead of reactive reporting.</p>
-
-        <ul class="actions special">
-          <li><a href="https://github.com/yourexodus/capstone_CDC/blob/main/README.md" class="button">View Project</a></li>
-        </ul>
-      </article>
-
-      <!-- CAPITAL BIKESHARE -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://github.com/yourexodus/mfrancis_datascience/blob/main/linear_regression/README.md">
-              Predictive Demand Modeling: Capital Bikeshare (ML)
-            </a>
-          </h2>
-        </header>
-
-        <a href="https://github.com/yourexodus/mfrancis_datascience/blob/main/linear_regression/README.md" class="image fit">
-           <img src="https://raw.githubusercontent.com/yourexodus/mfrancis_datascience/main/linear_regression/images/headmap600by600.png" alt="Linear Regression Analysis" />
-        </a>
-
-        <p>
-          Developed a supervised machine learning model to forecast urban transportation demand. By analyzing 
-          weather patterns and temporal data, the model identifies key drivers of ridership for Capital Bikeshare.
-        </p>
-
-        <p><strong>Public Sector Impact:</strong> Provides data-backed insights for urban infrastructure planning and fleet optimization.</p>
-        <p><strong>Technical Focus:</strong> Multivariate Linear Regression, feature engineering (handling multicollinearity), and time-series data preparation.</p>
-        <p><strong>Governance:</strong> Rigorous EDA and feature selection to ensure model interpretability and statistical validity.</p>
-
-        <ul class="actions special">
-          <li><a href="https://github.com/yourexodus/mfrancis_datascience/blob/main/linear_regression/README.md" class="button">View Project</a></li>
-        </ul>
-      </article>
-
-      <!-- GOVERNMENT EMPLOYMENT2 -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/GovernmentEmployment.md">
-              Federal Employment Analytics (BLS)
-            </a>
-          </h2>
-        </header>
-
-        <a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/GovernmentEmployment.md" target="_blank">
-          <img src="https://raw.githubusercontent.com/yourexodus/mfrancis_PowerBI_Analysis/main/images_laborStatistics/FinalGraph.jpg"
-               style="max-width:300px; display:block; margin:auto;" />
-        </a>
-
-        <p>
-          Analyzed U.S. government employment trends using Bureau of Labor Statistics data,
-          correcting time-series distortions via DAX and date modeling.
-        </p>
-
-        <p><strong>Federal Relevance:</strong> Policy-ready workforce insights.</p>
-        <p><strong>Leadership Takeaway:</strong> Identified non-cyclical hiring surges and operational implications.</p>
-
-        <ul class="actions special">
-          <li><a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/GovernmentEmployment.md" class="button">View Project</a></li>
-        </ul>
-      </article>
-
-      <!-- BLS DASHBOARD -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/2023_Employment_Analytics_Dashboard.md"> 
-              Federal Employment Trends Dashboard (BLS | Power BI)
-            </a>
-          </h2>
-        </header> 
-        <a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/2023_Employment_Analytics_Dashboard.md" target="_blank">
-          <img src="https://raw.githubusercontent.com/yourexodus/mfrancis_PowerBI_Analysis/main/images_visuals/FinshedReport.jpg" style="max-width:300px; display:block; margin:auto;" />
-        </a> 
-        <p> Built an interactive Power BI dashboard analyzing U.S. government employment trends using Bureau of Labor Statistics data, applying DAX measures and date modeling to ensure accurate time-series reporting. </p> 
-        <p><strong>Federal Relevance:</strong> Policy-ready workforce monitoring through standardized, reproducible dashboard metrics.</p>
-        <p><strong>Leadership Takeaway:</strong> Enabled leaders to distinguish cyclical fluctuations from structural, non-cyclical hiring patterns and assess operational impact.</p>
-        <ul class="actions special">
-          <li><a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/GovernmentEmployment.md" class="button">View Project</a></li>
-        </ul>
-      </article>
-
-      <!-- TABLEAU -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://public.tableau.com/app/profile/marlainna.francis/vizzes">
-              Executive Dashboards (Tableau)
-            </a>
-          </h2>
-        </header>
-
-        <a href="https://public.tableau.com/app/profile/marlainna.francis/vizzes" class="image fit">
-          <img src="images/tableau.jpg" alt="Tableau dashboards" />
-        </a>
-
-        <p>
-          Designed executive-facing dashboards translating complex datasets into clear operational insights.
-        </p>
-
-        <p><strong>Federal Relevance:</strong> Supports leadership briefings and stakeholder communication.</p>
-        <p><strong>Governance:</strong> Standardized metrics, documented assumptions.</p>
-
-        <ul class="actions special">
-          <li><a href="https://public.tableau.com/app/profile/marlainna.francis/vizzes" class="button">View Dashboards</a></li>
-        </ul>
-      </article>
-
-      <!-- EXCEL -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://github.com/yourexodus/mfrancis_MicrosoftExcel_Analysis/blob/main/Music_Industry/readme.md">
-              Excel Analytics — Music Industry
-            </a>
-          </h2>
-        </header>
-
-        <a href="https://github.com/yourexodus/mfrancis_MicrosoftExcel_Analysis/blob/main/Music_Industry/readme.md" class="image fit">
-          <img src="images/excel.jpg" alt="Excel analytics" />
-        </a>
-
-        <p>
-          Analyzed 40 years of revenue data to highlight the shift from physical to digital formats.
-        </p>
-
-        <p><strong>Governance:</strong> Cleaned data, validated totals, documented assumptions.</p>
-        <p><strong>Storytelling:</strong> Executive-ready historical context and trend interpretation.</p>
-
-        <ul class="actions special">
-          <li><a href="https://github.com/yourexodus/mfrancis_MicrosoftExcel_Analysis/blob/main/Music_Industry/readme.md" class="button">View Project</a></li>
-        </ul>
-      </article>
-
-      <!-- POWER BI DAX -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/portfoliodevelopment.md">
-              Power BI Visualization & DAX Exploration
-            </a>
-          </h2>
-        </header>
-
-        <a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/dashboard.md" class="image fit">
-          <img src="https://raw.githubusercontent.com/yourexodus/mfrancis_PowerBI_Analysis/main/images_DAX/FinalProject.jpg" alt="Power BI DAX Project" />
-        </a>
-
-        <p>
-          End-to-end Power BI project demonstrating interactive dashboard creation, DAX-based calculated measures, and data modeling. Includes combo charts, tooltips, maps, gauges, and infographics.
-        </p>
-
-        <p><strong>Technical Focus:</strong> Power BI Desktop, DAX, data modeling, interactive visualizations, and dashboard storytelling.</p>
-        <p><strong>Governance & Analytics:</strong> Validated tables, calculated fields and formatting best practices.</p>
-
-        <ul class="actions special">
-          <li><a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis/blob/main/dashboard.md" class="button">View Project</a></li>
-        </ul>
-      </article>
-
-      <!-- POWER BI ENTERPRISE -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis">
-              Enterprise BI & Data Modeling (Power BI)
-            </a>
-          </h2>
-        </header>
-
-        <a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis" class="image fit">
-          <img src="images/powerbi.jpg" alt="Power BI analytics" />
-        </a>
-
-        <p>
-          End-to-end BI workflows including Power Query transformations,
-          data modeling, and KPI-driven reporting.
-        </p>
-
-        <p><strong>Governance:</strong> Reusable functions, validated transformations, modeling best practices.</p>
-
-        <ul class="actions special">
-          <li><a href="https://github.com/yourexodus/mfrancis_PowerBI_Analysis" class="button">View Projects</a></li>
-        </ul>
-      </article>
-
-      <!-- PYTHON ETL -->
-      <article>
-        <header>
-          <h2>
-            <a href="https://github.com/yourexodus/unit-2-project-1/blob/main/covid.ipynb">
-              Python ETL — Government Health Data
-            </a>
-          </h2>
-        </header>
-
-        <a href="https://github.com/yourexodus/unit-2-project-1/blob/main/covid.ipynb" class="image fit">
-          <img src="images/covid.jpg" alt="COVID ETL" />
-        </a>
-
-        <p>
-          Built a full ETL and analytical pipeline using core Python only
-          (CSV, defaultdict, namedtuple).
-        </p>
-
-        <p><strong>Trust:</strong> Explicit missing-value handling and reproducible metrics.</p>
-
-        <ul class="actions special">
-          <li><a href="https://github.com/yourexodus/unit-2-project-1/blob/main/covid.ipynb" class="button">View Project</a></li>
-        </ul>
-      </article>
-
-    </section>
-
-    <!-- ARTICLE: Agent by Day, Analyst by Night -->
-    <article class="post featured" style="background-color: #111827; color: #ffffff; padding: 2em; border-radius: 8px; margin: 2em 0; border: 1px solid #fbbf24;">
-      <header class="major">
-        <h2 style="color: #fbbf24;">Agent by Day, Analyst by Night</h2>
-        <p style="font-style: italic; color: #d1d5db;">"I don't just analyze data; I've lived the stories behind the rows and columns."</p>
-      </header>
-      
-      <p>
-        I work on the front lines helping customers every day, solving problems and finding solutions. 
-        Alongside that, I’ve built real skills in data analytics—Python, SQL, Tableau, Power BI—and applied them to projects that turn data into insights. 
-        I bring the same focus, persistence, and problem-solving from my customer work to analyzing data. 
-        I’m looking for a role where I can combine hands-on experience with data skills to make an impact.
-      </p>
-
-      <iframe src="https://drive.google.com/file/d/1XF52V46sQB9i2yPxEQK4VMbnTAPJ-rDZ/preview" width="100%" height="315" allow="autoplay" style="border-radius:8px; border:2px solid #fbbf24;"></iframe>
-    </article>
-
-    <!-- ARTICLE: AI Video Production Skills -->
-    <article class="post featured" style="background-color: #111827; color: #ffffff; padding: 2em; border-radius: 8px; margin: 2em 0; border: 2px solid #fbbf24;">
-      <header class="major">
-        <h2 style="color: #fbbf24;">AI Video Production Skills</h2>
-        <p style="font-style: italic; color: #d1d5db;">"Bringing data stories to life through AI-generated videos."</p>
-      </header>
-
-      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 2em;">
-        <div style="flex: 1; min-width: 300px; text-align: left;">
-          <p>
-            Skilled in creating professional short videos for TikTok, Reels, and LinkedIn using 
-            <strong>Canva</strong> for design and animation, 
-            <strong>MidJourney</strong> for AI-generated visuals, 
-            and <strong>Fliki</strong> for AI voiceovers and final video assembly.
-          </p>
-          <p>
-            This skill allows me to communicate insights and concepts in a highly engaging, visual format. 
-            Videos can integrate animated charts, data-driven storytelling, and cinematic AI visuals.
-          </p>
-        </div>
-
-        <div style="flex: 1; min-width: 300px;">
-          <iframe 
-            src="https://www.tiktok.com/embed/7597656876792237326" 
-            width="100%" 
-            height="315" 
-            allow="autoplay; encrypted-media" 
-            style="border-radius:8px; border:2px solid #fbbf24;" 
-            frameborder="0" 
-            scrolling="no">
-          </iframe>
-          <p style="font-size:0.9em; color:#d1d5db; margin-top:0.5em;">Click to play AI video example on TikTok</p>
-        </div>
-      </div>
-    </article>
-
-    <!-- CONTACT -->
-    <article>
-      <header><h2>Contact</h2></header>
-      <p>
-        Open to federal, public-sector, and mission-driven analytics opportunities.
-      </p>
-      <ul class="actions special">
-        <li><a href="mailto:marlainna456@gmail.com" class="button">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/iknowhowtoskills/" class="button">LinkedIn</a></li>
-        <li><a href="https://github.com/yourexodus" class="button">GitHub</a></li>
-      </ul>
-    </article>
-
-  </div>
-
-  <div id="copyright">
-    <ul><li>&copy; Marlainna</li><li>Design: HTML5 UP</li></ul>
-  </div>
-
-</div>
-
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-
-</body>
-</html>
+          Python • <span class="tech-highlight">Flask</span> • Flask-Smorest • <span class="tech-highlight">SQLAlchemy</span> • Marshmallow • <span class="tech-
